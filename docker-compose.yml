@@ -8,5 +8,7 @@ services:
     tty: true
     ports:
       - '0.0.0.0:4567:4567'
+      - '0.0.0.0:1234:1234'
+      - '0.0.0.0:26162:26162'
     volumes:
       - .:/CSD/projects
